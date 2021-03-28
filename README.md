@@ -14,11 +14,11 @@ Po odpowiedzi na wszystkie pytania wyświetla się wynik.
 
 3. Skład zespołu:
 
-Jakub Kret
+  Jakub Kret
 
-Sebastian Mączyński
+  Sebastian Mączyński
 
-Wojciech Wołoszyn
+  Wojciech Wołoszyn
 
 4. Kierownik zespołu: Sebastian Mączyński
 
