@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">RIKWO_QuizApp</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="question_text">Pytanie numer %1$d z %2$d </string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -9,4 +11,14 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="number_of_guesses_title">Ilość dostępnych odpowiedzi</string>
+    <string name="number_of_guesses_description">Wyświetl 2,4 lub 6 pozycji z odpowiedzią.</string>
+
+    <string name="categories_types_title">Kategorie quizu</string>
+    <string name="categories_types_description">Wybierz kategorie które chesz mieć w swoim quizie.</string>
+
+    <string name="choose_background_color">Kolor tła</string>
+    <string name="choose_color_description">Możesz zmienić kolor tła na jeden z dostępnych kolorów.</string>
+    <string name="default_color_black">Czarny</string>
 </resources>

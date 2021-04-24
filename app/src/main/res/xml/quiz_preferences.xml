@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/number_of_guesses_list"
+        android:entryValues="@array/number_of_guesses_list"
+        android:key="settings_numberOfGuesses"
+        android:title="@string/number_of_guesses_title"
+        android:summary="@string/number_of_guesses_description"
+        android:persistent="true"
+        android:defaultValue="4"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/categories"
+        android:entryValues="@array/categories_values"
+        android:key="settings_categoriesType"
+        android:title="@string/categories_types_title"
+        android:summary="@string/categories_types_description"
+        android:persistent="true"
+        android:defaultValue="@array/categories_values"/>
+
+    <ListPreference
+        android:entries="@array/colors"
+        android:entryValues="@array/colors"
+        android:key="settings_quiz_background_color"
+        android:title="@string/choose_background_color"
+        android:summary="@string/choose_color_description"
+        android:persistent="true"
+        android:defaultValue="@string/default_color_black"/>
+
+
+</PreferenceScreen>
