@@ -3,7 +3,7 @@ package com.example.rikow_quizapp
 object Constants{
     const val USER_NAME: String = "user_name"
     const val TOTAL_QUESTIONS: String = "total_question"
-    const val CORRECT_ANSWERS:String = "corredt_answers"
+    const val CORRECT_ANSWERS:String = "correct_answers"
 
     fun getQuestions(): ArrayList<Question>{
         val questionList = ArrayList<Question>()
@@ -11,9 +11,9 @@ object Constants{
         val que1 = Question(1,
                 "Co to za zwierze?",
                 R.drawable.ic_delfin,
-                "Koń",
+                "Słoń",
                 "Delfin",
-                "Krowa",
+                "Orka",
                 "Lew",
                 2
         )
@@ -23,9 +23,9 @@ object Constants{
                 "Co to za zwierze?",
                 R.drawable.ic_kon,
                 "Koń",
-                "Delfin",
+                "Kot",
                 "Krowa",
-                "Lew",
+                "Lampart",
                 1
         )
         questionList.add((que2))
@@ -33,10 +33,10 @@ object Constants{
         val que3 = Question(3,
                 "Co to za zwierze?",
                 R.drawable.ic_asd,
-                "Koń",
-                "Delfin",
+                "Jaszczurka",
+                "Koza",
                 "Krowa",
-                "Lew",
+                "Kameleon",
                 3
         )
         questionList.add((que3))
@@ -44,9 +44,9 @@ object Constants{
         val que4 = Question(4,
                 "Co to za zwierze?",
                 R.drawable.ic_lew,
-                "Koń",
-                "Delfin",
-                "Krowa",
+                "Mrówka",
+                "Motyl",
+                "Gepard",
                 "Lew",
                 4
         )
@@ -56,9 +56,9 @@ object Constants{
                 "Co to za zwierze?",
                 R.drawable.ic_orangutan,
                 "Orangutan",
-                "Słoń",
+                "Goryl",
                 "Surykatka",
-                "Zebra",
+                "Szympans",
                 1
         )
         questionList.add((que5))
@@ -66,10 +66,10 @@ object Constants{
         val que6 = Question(6,
                 "Co to za zwierze?",
                 R.drawable.ic_slon,
-                "Orangutan",
+                "Żyrafa",
                 "Słoń",
-                "Surykatka",
-                "Zebra",
+                "Lis",
+                "Skunks",
                 2
         )
         questionList.add((que6))
@@ -77,8 +77,8 @@ object Constants{
         val que7 = Question(7,
                 "Co to za zwierze?",
                 R.drawable.ic_surykatka,
-                "Orangutan",
-                "Słoń",
+                "Szympans",
+                "Antylopa",
                 "Surykatka",
                 "Zebra",
                 3
@@ -88,9 +88,9 @@ object Constants{
         val que8 = Question(8,
                 "Co to za zwierze?",
                 R.drawable.ic_zebra,
-                "Orangutan",
-                "Słoń",
-                "Surykatka",
+                "Kruk",
+                "Dzik",
+                "Mysz",
                 "Zebra",
                 4
         )
@@ -100,9 +100,9 @@ object Constants{
                 "Co to za zwierze?",
                 R.drawable.ic_zubr,
                 "Żubr",
-                "Żyrafa",
-                "Surykatka",
-                "Zebra",
+                "Świnia",
+                "Wilk",
+                "Pies",
                 1
         )
         questionList.add((que9))
@@ -110,10 +110,10 @@ object Constants{
         val que10 = Question(10,
                 "Co to za zwierze?",
                 R.drawable.ic_zyrafa,
-                "Żubr",
+                "Królik",
                 "Żyrafa",
-                "Surykatka",
-                "Zebra",
+                "Zając",
+                "Sarna",
                 2
         )
         questionList.add((que10))
