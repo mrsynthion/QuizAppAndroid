@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.rikwo_quizapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rikow_quizapp">
 
     <application
         android:allowBackup="true"
@@ -8,11 +9,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RIKWO_QuizApp">
+        android:theme="@style/Theme.RIKOW_QuizApp">
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme">
+
+        </activity>
+        <activity
+            android:name=".QuizQuestionActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.RIKWO_QuizApp.NoActionBar">
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
